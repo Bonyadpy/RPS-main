@@ -8,10 +8,68 @@
     <link rel="stylesheet" href="./style/style.css" />
     <!-- insert bootstrap link -->
     <!-- title -->
-    <title>Rock Paper Scissor</title>
+    <title>Rock Paper Scissor</title> 
   </head>
-  <body>
-    <!-- scripts -->
+  <body class="bg-back">
+
+    <div class="menu_pop">
+
+        <h4 class="info_tex" id="score">Computer: 0 | Player: 0</h4> 
+
+        <div class="info_tex">
+
+          <h4 id="winner">Who Will Win??</h4>
+          
+        </div>
+        <a class="btn btn-dark mt-3 ms-3" href="twoPlayer.html">2 Plaer Mode</a>
+    </div>
+    <div class="d-flex justify-content-center flex-column align-items-center my-4">
+
+      <h1 class="text-white" id="pctex">Computer</h1>
+
+      <img class="bg-card p-3 rounded-5" width="150px" id="comp" src="./assets/images/Question Mark.png" alt="">
+      
+    </div> 
+
+    <form>
+
+      <div class="d-flex justify-content-center gap-5 align-items-center">
+
+      <label class="d-flex flex-column gap-3 bg-card p-3 rounded-5">
+
+        <img src="assets/images/paper.png" alt="Paper" width="150px">
+
+        <input type="radio" name="game" id="paper">
+
+      </label>
+
+      <label class="d-flex flex-column gap-3 bg-card p-3 rounded-5">
+
+        <img src="assets/images/scissor.png" alt="scissor" width="150px">
+
+        <input type="radio" name="game" id="scissor">
+
+      </label>
+
+      <label class="d-flex flex-column gap-3 bg-card p-3 rounded-5">
+
+        <img src="assets/images/rock.png" alt="rock" width="150px">
+
+        <input type="radio" name="game" id="rock">
+
+      </label>
+
+    </div>
+
+    <div class="d-flex flex-column align-items-center justify-content-center mt-4">
+
+      <input class="btn btn-light" value="Play Game" type="submit" id="player">
+
+      <p class="text-danger" id="note"></p>
+    </div>
+
+    </form>
+
     <script src="./script/main.js"></script>
   </body>
 </html>

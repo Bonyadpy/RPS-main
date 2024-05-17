@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- insert bootstrap link -->
+    <link rel="stylesheet" href="./style/bootstrap/bootstrap.css" />
+    <!-- title -->
+    <title>Rock Paper Scissor</title>
+  </head>
+
+  <body class="bg-back"> 
+    
+    <div class="d-flex justify-content-around align-items-center mt-2 ms-5 text-white">
+    </div>
+    <!-- class="d-flex justify-content-center align-items-center mt-2 ms-5" -->
+    <div class="flex">
+        <div>
+
+            <h1 class="ms-5 text-white">Player 1</h1>
+
+            <div class="d-flex justify-content-center align-content-center mx-4 gap-2 text-white bg-sia rounded-5 p-3">
+
+                <div class="d-flex justify-content-center align-items-center flex-column bg-card ">
+
+                  <img src="assets/images/paper.png" alt="Paper" width="100px" />
+
+                  <h1>A</h1>
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column bg-card rounded-4 p-3">
+
+                  <img src="assets/images/scissor.png" alt="Paper" width="100px"/>
+                  
+                  <h1>S</h1>
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column bg-card rounded-4 p-3">
+
+                  <img src="assets/images/rock.png" alt="Paper" width="100px"/>
+
+                  <h1>D</h1>
+
+                </div>
+              </div>
+        </div>
+        <div>
+            <h1 class="ms-5 text-white">Player 2</h1>
+
+            <div class="d-flex justify-content-center align-content-center mx-4 gap-2 text-white bg-sia rounded-5 p-3">
+
+                <div class="d-flex justify-content-center align-items-center flex-column bg-card rounded-4 p-3">
+
+                  <img src="assets/images/paper.png" alt="Paper" width="100px"/>
+
+                  <h2 class="mt-1">←</h2>
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column bg-card rounded-4 p-3">
+
+                  <img src="assets/images/scissor.png" alt="Paper" width="100px"/>
+
+                  <h2 class="mt-1">↑</h2>
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column bg-card rounded-4 p-3">
+
+                  <img src="assets/images/rock.png" alt="Paper" width="100px"/>
+
+                  <h2 class="mt-1">→</h2>
+
+                </div>
+              </div>       
+        </div> 
+    </div>   
+    <div class="d-flex justify-content-center align-content-center flex-column text-white m-5 col-3 bg-tag p-3 rounded-3">
+
+        <h4 class="" id="score">Player1 : 0 | Player2 : 0</h4>
+
+        <h4 id="winner">Who Will Win??</h4>
+        
+        <a class="btn btn-dark" href="index.html">Computer Mode</a>
+      </div>
+
+    <script src="./script/two.js"></script>
+    
+  </body>
+</html>
